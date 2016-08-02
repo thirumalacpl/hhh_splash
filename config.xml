@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.advs.heart_splash" version="2.2.2">
-  <name>HEART splash</name>
-  <description>HEART splash</description>
+  <name>HEART </name>
+  <description>HEART </description>
   <author href="http://advicesync.com" email="support@advicesync.com">eImpressive</author>
   <content src="index.html"/>
 
@@ -24,7 +24,7 @@
   <preference name="android-installLocation" value="auto"/>
   
  <preference name="FadeSplashScreen" value="false"/>
- 
+
 <preference name="SplashMaintainAspectRatio" value="true|false" />
 <preference name="SplashShowOnlyFirstTime" value="false" />
 
