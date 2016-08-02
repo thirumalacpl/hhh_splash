@@ -1,0 +1,436 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My Heart</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="vendor/wow/animate.css" />
+		<link rel="stylesheet" href="css/nativedroid2.css" />
+
+		<meta name="mobile-web-app-capable" content="yes">
+	 	<meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<script src="js/jquery.mobile.min.js"></script>
+   <script src="js/jquery-1.11.3.min.js"></script>
+   	<script src="js/jquery-ui.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/jquery.min.js"></script> -->
+
+
+<style type="text/css">
+
+.ui-controlgroup-horizontal .ui-controlgroup-controls .ui-btn.ui-radio-on {
+    background-color: #00a3b5 !important;
+    color: #ffffff;
+}
+</style>
+
+
+	</head>
+	<body>
+
+<!--Page one starts-->
+
+       <div data-role="page"  id="pageone" class="main-bg">
+<script type="text/javascript" src="js/condition.js"></script>
+			<nd2-include data-src=".//examples/fragments/panel.left.html"></nd2-include>
+
+			<div data-role="panel" id="bottomsheet" data-animate="false" data-position='bottom' data-display="overlay">
+				<nd2-include data-src=".//examples/fragments/bottom.sheet.html"></nd2-include>
+			</div>
+
+			<!-- <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+				<a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-more-vert"></i></a>
+				<a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Page Title</h1>
+			</div>-->
+			<div role="main" class="ui-content main-top" data-inset="false" >
+			
+				<div class="main-both1">&nbsp;</div>
+
+				<div class="main-center"> <img src="./img/logo.PNG"></div>
+                <div class="main-both2">&nbsp;</div>
+
+				<a href="" class="ui-btn ui-btn-raised" id="emergency">Emergency</a>
+				
+				 <div class="main-both3">&nbsp;</div>
+				<a href="#" class="ui-btn ui-btn-raised">Non -Emergency</a>
+			</div>
+
+		</div>
+<!--Page one ends-->
+
+<!--Page two starts-->
+
+ <div data-role="page" id="cond_patient_details">
+<script type="text/javascript" src="js/condition_pat_detail.js"></script>
+			<nd2-include data-src="examples/fragments/panel.left.html"></nd2-include>
+
+			<div data-role="panel" id="bottomsheet" data-animate="false" data-position='bottom' data-display="overlay">
+				<nd2-include data-src="examples/fragments/bottom.sheet.html"></nd2-include>
+			</div>
+
+			 <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+				<a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-more-vert"></i></a>
+				<!-- <a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a> -->
+          <a href="#pageone" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi  zmdi-arrow-back"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>My Heart</h1>
+			</div>
+
+			<div role="main" class="ui-content sec-bg" data-inset="false">
+	
+
+<p class="sec-head">patient Details</p>
+
+<div class="sec-both">&nbsp;</div>
+  <form method="post"  id="pat_detai"> 
+	<div class="ui-grid-solo sec-mainsolo">
+
+    <div class="ui-block-a"> 
+      	<div class="ui-grid-solo">
+		<div class="col-md-12">
+		<div class="box">
+        <input type="text" name="name2" id="pat_name" value="" data-clear-btn="true" placeholder="Patient  Name...">
+ 
+
+    <div class="select_age"> 
+
+         <select class="left" name="age" id="age_n" data-native-menu="false">
+                 <option value="age">Age</option>
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                    <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                    <option value="9">9</option>
+                 <option value="10">10</option>
+                 <option value="11">11</option>
+                 <option value="12">12</option>
+                    <option value="13">13</option>
+                 <option value="14">14</option>
+                 <option value="15">15</option>
+                 <option value="16">16</option>
+                    <option value="17">17</option>
+                 <option value="18">18</option>
+                 <option value="19">19</option>
+                 <option value="20">20</option>
+                      <option value="21">21</option>
+                 <option value="22">22</option>
+                 <option value="23">23</option>
+                 <option value="24">24</option>
+                    <option value="25">25</option>
+                 <option value="26">26</option>
+                 <option value="27">27</option>
+                 <option value="28">28</option>
+                    <option value="29">29</option>
+                 <option value="30">30</option>
+                 <option value="31">31</option>
+                 <option value="32">32</option>
+         </select>  
+                        
+    </div>
+
+    <br>
+
+    <div class="ui-grid-b select_age">
+
+        <fieldset data-role="controlgroup">
+                           
+        <div class="ui-block-a gender_1">
+	    
+	    <legend style="padding: 5px 0px 0px 13px;">Gender</legend> 
+
+         </div>
+        <div class="ui-block-b gender_2">
+          <input type="radio" name="gender_de" id="radio-choice-1b"  value="male" checked="checked">
+           <label for="radio-choice-1b" class="select_age">Male</label> 
+         </div>
+        <div class="ui-block-c gender_3">
+          <input type="radio" name="gender_de" id="radio-choice-2b" value="female">
+           <label for="radio-choice-2b" class="select_age">Female</label> 
+        </div>
+                     
+        </fieldset> 
+                       
+    </div>
+    <br>
+
+    <div >
+	<input type="text" name="mob_no" id="mob_no" value="" data-clear-btn="true" placeholder="Enter your Number...">
+    </div>
+
+     <br>
+
+   <a href="#" class="txt-dec">  <input type="button" value="Enter" style="border: solid 2px #00BBD3;opacity: inherit; border-radius: 0px;" id="pate_enter_but"> </a>
+
+
+ </div>
+</div>
+</div>
+
+
+
+
+
+</div>
+
+</div>
+</form>
+</div>
+</div>
+
+<!--Page two end-->
+
+
+
+<!--page three start-->
+
+
+ <div data-role="page" id="question_li" >
+<!-- <script type="text/javascript" src="js/question_frl.js"></script> -->
+<script src="js/five.js"></script>
+<!-- <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css"> -->
+<!-- <link rel="stylesheet" href="css/my.css"> -->
+<script src="js/jquery.mobile-1.4.5.js"></script>
+<!-- <script src="js/map.js"></script> -->
+			<!-- <nd2-include data-src=".//examples/fragments/panel.left.html"></nd2-include> -->
+
+			<div data-role="panel" id="bottomsheet" data-animate="false" data-position='bottom' data-display="overlay">
+				<nd2-include data-src=".//examples/fragments/bottom.sheet.html"></nd2-include> 
+			</div>
+
+			 <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+				<a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-more-vert"></i></a>
+				<a href="#cond_patient_details" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi  zmdi-arrow-back"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>Question</h1>
+			</div>
+
+			<div role="main" class="ui-content full" >
+	
+<!-- <div class="third-bg">
+      <div class="third-q"><span>SELECT THE APPROPRIATE OPTIONS </span></div>
+
+    </div> -->
+
+
+  <form method="post" data-ajax="false" action="#" id="lpaform">
+  <input type="hidden" name="activityval" id="activityval" >
+
+  <input type="hidden" name="plant_id" id="plant_id" >
+  <input type="hidden" name="part_id" id="part_id" >
+  <input type="hidden" name="shift" id="shift" >
+  <input type="hidden" name="user_id" id="user_id" >              
+  <div role="main" class="ui-content full"  >
+
+<!-- <div data-role="main" class="ui-content poda" id="pagination"> -->
+<!--  <h3 class="ui-bar ui-bar-a texsb" >Emergency Questions</h3> -->
+
+<div id="pagination">
+</div>
+  
+</div>
+<form>
+
+
+
+
+  
+<!--   <div id="quest_li">
+<div class="ui-grid-c vgb" id="checkbox'+c+'">
+<div class="row" style="background-color: #ebebeb; height: 70px;    margin-left: 5px;
+    margin-right: 7px;">
+    <div class="col-xs-8 padz ">
+        <div class="box">
+           Crushing - Like tighteneing with a rope
+        </div>
+    </div>
+    <div class="col-xs-4 padz">
+        <div class="box">
+   
+                          <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-controlgroup ui-controlgroup-horizontal ui-corner-all ui-mini"><div class="ui-controlgroup-controls ">
+                            <div class="ui-radio ui-mini"><label class="flo">Yes:</label><input type="radio" id="result_yes'+c+'" name="result_yes'+c+'"  value="yes" ></div>
+                            
+                            <div class="ui-radio ui-mini"><label class="flo">No:</label><input type="radio" id="result_yes'+c+'" name="result_yes'+c+'" value="no" class="marl" checked><br id="result_no_br'+c+'"><br id="result_no_br'+c+'"></div>
+                            
+                         </div></fieldset>
+        </div>
+    </div>
+  
+</div>
+  </div></div> -->
+  
+
+<!--   <div>
+<div class="ui-grid-c vgb" id="checkbox'+c+'"><div class="ui-block-a "><label class="flo">Yes:</label><input type="radio" id="result_yes'+c+'" name="result_yes'+c+'"  value="yes" ></div><div class="ui-block-b"><label class="flo">No:</label>
+
+<input type="radio" id="result_yes'+c+'" name="result_yes'+c+'" value="no" class="marl"><br id="result_no_br'+c+'">
+
+</div><div class="ui-block-c "><label class="flo">N/A:</label ><input type="radio" id="result_yes'+c+'" name="result_yes'+c+'" value="na" checked></div><div class="ui-block-d"><a href="#" class="ui-btn pls ui-shadow ui-corner-all ui-icon-plus ui-btn-icon-notext"  id="add'+c+'" onclick="showfields('+c+');">Add</a><a href="#" id="minus'+c+'" class="ui-btn pls ui-shadow ui-corner-all ui-icon-minus ui-btn-icon-notext" style="display:none" onclick="hidefields('+c+');" >Minus</a><br id="result_na_br'+c+'" style="display:none;"></div></div><div class="paf"><input type="text"   id="findings'+c+'" name="findings'+c+'" placeholder="Findings" style="display:none;"><select name="responsibility'+c+'" id="responsibility'+c+'" onchange="enabledate('+c+');" ><option value="0">Choose Responsibility</option><option value="supervisor">Supervisor</option><option value="Manager">Manager</option><option value="GM">GM</option></select><input type="date" style="display:none;"  id="datepicker'+c+'" name="datepicker'+c+'"  disabled/></div>
+  </div> -->
+
+<div class="row">
+<div class="col-xs-3 padz"></div>
+ <div class="col-xs-6 padz">
+   
+<a href="" class="txt-dec">  <input type="button" value="Submit" style="border: solid 2px #00BBD3;opacity: inherit; border-radius: 0px;" id="lpa_create"> </a>
+ </div>
+
+<div class="col-xs-3 padz"></div>
+
+
+</div>
+
+</div>
+</div>
+
+<!--page three end-->
+
+
+
+
+<!--page four start-->
+
+
+ <div data-role="page" id="sear_nearby_mapp" >
+<!-- <script type="text/javascript" src="js/question.js"></script> -->
+<!-- <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css"> -->
+<!-- <link rel="stylesheet" href="css/my.css"> -->
+<script src="js/jquery.mobile-1.4.5.js"></script>
+<!-- <script src="js/map.js"></script> -->
+			<!-- <nd2-include data-src=".//examples/fragments/panel.left.html"></nd2-include> -->
+
+	    <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-more-vert"></i></a>
+        <!-- <a href="#leftpanel" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-menu"></i></a> -->
+          <a href="#pageone" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi  zmdi-arrow-back"></i></a>
+        <h1 class="wow fadeIn" data-wow-delay='0.4s'>My Heart</h1>
+      </div>
+
+			<div role="main" class="ui-content full" data-inset="false" id="main">
+	
+
+
+ <!--   <center><img style="text-align: center" src="img/logo.png" width="225" height="225"/></center>
+    <label id="whatsearch" for="search" style="text-align: center;">What Would You Like To Search?</label>
+    <select name="search" id="choice" data-native-menu="false">
+      <option value="atm">ATM</option>
+      <option value="hospital">hospital</option>
+      <option value="restaurant">Restaurant</option>
+    </select>
+<button id="searchbutton" class="ui-btn" onclick="Myfunc()">Search</button> -->
+<div style="margin-top:50px;margin-left:50px;margin-right:50px ">
+<a href="" class="txt-dec">  <input type="button" value="SEARCH NEARBY LOCATION" style="border: solid 2px #00BBD3;opacity: inherit; border-radius: 0px;" id="" > </a>
+</div>
+
+
+</div>
+</div>
+<!--map test end-->
+
+<!--Page four starts-->
+
+ <div data-role="page" id="search_nearby_list" >
+<script type="text/javascript" src="js/search_nearby_list.js"></script>
+<!-- <script src="js/map.js"></script> -->
+
+			<!-- <nd2-include data-src=".//examples/fragments/panel.left.html"></nd2-include> -->
+
+			<div data-role="panel" id="bottomsheet" data-animate="false" data-position='bottom' data-display="overlay">
+				<nd2-include data-src=".//examples/fragments/bottom.sheet.html"></nd2-include>
+			</div>
+
+			 <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+				<a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-more-vert"></i></a>
+				<a href="#pagethree" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi zmdi-arrow-back"></i></a>
+				<h1 class="wow fadeIn" data-wow-delay='0.4s'>My Heart</h1>
+			</div>
+
+			<div role="main" class="ui-content four-bg" data-inset="false">
+	
+
+<p class="sec-head2">HERE IS OUR RECOMMENDED CHOICE OF CARDIOLOGISTS IN YOUR NEAR BY LOCATION</p>
+
+<div class="sec-both2">&nbsp;</div>
+</div>
+  <div class="ui-grid-solo sec-mainsolo" style="width:100%;">
+
+    <div class="ui-block-a"> 
+        <div class="ui-grid-solo">
+
+<ul data-role="listview" data-icon="false">
+        <li data-role="list-divider">
+          
+        </li>
+        <li style="padding-bottom: 5px;">
+          <a href="#" style="background-color: #00a3b5;">
+         <h2 style="color:white;font-size: 15px;">Srinivasan.R (MD - Medicine, DNB (Cardiology), MBBS)</h2>
+          <p style="float: right;"><img src="img/location-icon.png"></p>
+         <p style="color:white;">Apollo Hospitals</p>
+           <p style="color:white;">No. 1 and 2, SBI Officers Colony Chennai</p>
+            <p style="color:white;">Tel: 044 4201 7575</p>
+          </a>
+        </li>
+
+          <li style="padding-bottom: 5px;">
+          <a href="#" style="background-color: #00a3b5;">
+         <h2 style="color:white;font-size: 15px;">Dr. D Prabhakar(DM - Cardiology, MD - Medicine, MBBS)</h2>
+          <p style="float: right;"><img src="img/location-icon.png"></p>
+         <p style="color:white;">Appasamy Hospitals</p>
+           <p style="color:white;">No. 1 and 2, SBI Officers Colony,1st Street, 
+Arumbakkam</p>
+            <p style="color:white;">Tel: 8812 1213</p>
+          </a>
+        </li>
+
+          <li style="padding-bottom: 5px;">
+          <a href="#" style="background-color: #00a3b5;">
+         <h2 style="color:white;font-size: 15px;">Dr. B. Madan Mohan (MBBS, MD - Medicine, DM - Cardiology)</h2>
+          <p style="float: right;"><img src="img/location-icon.png"></p>
+         <p style="color:white;">Dr Agarwal Eye Hospital</p>
+           <p style="color:white;">Krishna Towers, No.107, A Block, 3rd Avenue</p>
+            <p style="color:white;">Tel: 044 2620 5020</p>
+          </a>
+        </li>
+
+      </ul>
+
+</div>
+
+ <div id="att">
+  <p>hello thr</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<!--Page four end-->
+
+
+
+
+
+
+		
+	
+		
+
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="vendor/wow/wow.min.js"></script>
+
+		<script src="js/nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+
+
+	</body>
+</html>
